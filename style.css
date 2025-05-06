@@ -27,7 +27,6 @@ header {
     width: 25%;
     border: 1px dashed black;
     background-color: var(--background-color-heder);
-    display: flex;
 }
 
 .link {
@@ -103,7 +102,7 @@ header {
 .cinque {
     height: 40rem;
     background-color: #D3D3D3;
-    padding:20px;
+    padding: 20px;
 }
 
 .verde {
@@ -115,26 +114,61 @@ header {
     align-self: center;
     border: 2px dashed black;
 }
-.footer-1{
-    height:40rem;
+
+.footer-1 {
+    height: 40rem;
     background-color: #23272A;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
-.rosa-scuro{
-    width:16rem;
-    padding:20px;
-    background-color: black;
-    margin:0 auto;
-    align-self: center;
+
+.rosa-scuro {
+    width: 16rem;
     height: 100%;
-    border:2px dashed   white;
+    padding: 20px;
+    background-color: #F08080;
+    margin: 0;
+    align-self: center;
+    border: 2px dashed white;
 }
-.celeste{
-    width: 8rem;
-    padding:20px;
-    background-color: yellow;
-    margin:0 auto;
-    align-self:center;
-    height:100%;
-    border:2px dashed white;
+
+.celeste {
+    width: 136px;
+    height: 100%;
+    padding: 20px;
+    background-color: #20B2AA;
+    margin: 0;
+    align-self: center;
+    border: 2px dashed white;
+}
+
+.last {
+    height: 5rem;
+    background-color: #23272A;
+    display: flex;
+    align-items: flex-end;
+}
+
+.last-uno {
+    width: 50rem;
+    height: 4rem;
+    background-color: #7FFFD4;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-due {
+    width: 10%;
+    border: 1px dashed black;
+    background-color: #C9919A;
+}
+
+.last-tre {
+    width: 10%;
+    border: 1px dashed black;
+    background-color: #C9919A;
 }
