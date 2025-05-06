@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color-heder: #B3891F;
+}
+
+header {
+    background-color: #9FC6D2;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+}
+
+.logo {
+    width: 25%;
+    border: 1px dashed black;
+    background-color: var(--background-color-heder);
+    display: flex;
+}
+
+.link {
+    width: 50%;
+    border: 1px dashed black;
+    background-color: var(--background-color-heder);
+    text-align: center;
+}
+
+.login {
+    width: 25%;
+    border: 1px dashed black;
+    background-color: var(--background-color-heder);
+    text-align: end;
+}
+
+.uno {
+    height: 20rem;
+    background-color: #00008B;
+    padding: 20px;
+}
+
+.rosa {
+    width: 45rem;
+    padding: 20px;
+    background-color: #EE82EE;
+    margin: 0 auto;
+    height: 100%;
+    align-self: center;
+    border: 2px dashed black;
+}
+
+.due {
+    height: 20rem;
+    padding: 20px;
+}
+
+.due {
+    height: 25rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    width: 30rem;
+    padding: 20px;
+    background-color: #1E90FF;
+    margin: 0;
+    height: 100%;
+    align-self: center;
+    border: 2px dashed black;
+}
+
+.rosa1 {
+    width: 20rem;
+    padding: 20px;
+    background-color: #FFC0CB;
+    margin: 0;
+    height: 100%;
+    align-self: center;
+    border: 2px dashed black;
+}
+
+.tre {
+    background-color: #D3D3D3;
+    height: 25rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cinque {
+    height: 40rem;
+    background-color: #D3D3D3;
+    padding:20px;
+}
+
+.verde {
+    width: 50rem;
+    padding: 20px;
+    background-color: #228B22;
+    margin: 0 auto;
+    height: 100%;
+    align-self: center;
+    border: 2px dashed black;
+}
+.footer-1{
+    height:40rem;
+    background-color: #23272A;
+    padding: 20px;
+}
+.rosa-scuro{
+    width:16rem;
+    padding:20px;
+    background-color: black;
+    margin:0 auto;
+    align-self: center;
+    height: 100%;
+    border:2px dashed   white;
+}
+.celeste{
+    width: 8rem;
+    padding:20px;
+    background-color: yellow;
+    margin:0 auto;
+    align-self:center;
+    height:100%;
+    border:2px dashed white;
+}
